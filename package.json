@@ -1,8 +1,21 @@
-// server/package.json
+{
+  "name": "tempdeployment",
 
-...
-"scripts": {
-    "start": "node server/index.js",
-    "build": "cd client && npm install && npm run build"
+  "version": "1.0.0",
+  "description": "This version of __ is for temporary deployment.",
+  "main": "app.js",
+  "scripts": {
+    "test": "test.js",
+    "start": "node app.js"
   },
-...
+  "author": "____",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "request": "^2.83.0"
+  },
+  "engines": {
+    "node":"^8.9.4"
+  }
+}
